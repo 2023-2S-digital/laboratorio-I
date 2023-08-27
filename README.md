@@ -1,10 +1,10 @@
-# Electrónica Digial I
+# Electrónica Digital I
 
 Laboratorios de Digital I
 
 ## Laboratorios
 
-- Laboratorio I - [https://github.com/aamontenegros]
+- Laboratorio I - [README](laboratorio-I/README.md)
 
 ## Credits
 
