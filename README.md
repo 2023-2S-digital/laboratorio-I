@@ -2,9 +2,15 @@
 
 Laboratorios de Digital I
 
+## Laboratorios
+
+- Laboratorio I - [https://github.com/aamontenegros]
+
 ## Credits
 
-- [Alvaro Montenegro](https://github.com/aamontenegros)
+- [Alvaro Arturo Montenegro Silva](https://github.com/aamontenegros)
+- [Juan Manuel Rojas Luna](https://github.com/JuanLunaG)
+- [Juan David Vega Avila](https://github.com/JuanD272)
 
 ## License
 
