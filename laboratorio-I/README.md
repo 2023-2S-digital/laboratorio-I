@@ -6,6 +6,8 @@ Instalación del entorno de desarrollo que se usará en clase
 
 Por sugerencia del profesor Johnny Cubides, se instalará la distribución de Linux [Mint](https://www.linuxmint.com/) en su versión Cinnamon.
 
+![Linux Mint Welcome](images/install-mint.png Linux Mint Welcome Screen)
+
 # Instalación de herramientas
 
 ## Instalación de Git
@@ -24,6 +26,9 @@ y luego
 
 ```bash Miniconda3-latest-Linux-x86_64.sh```
 
+![MiniConda install Screen](images/install-miniconda.png MiniConda install command)
+
+
 Luego seguir las instrucciones que se muestran en la terminal.
 
 ### Creación del entorno virtual
@@ -35,6 +40,7 @@ Seguir las instrucciones de la siguiente página: [Instalación de miniconda](ht
 Para instalar GTKWave en el entorno virtual de MiniConda en Linux, se debe ejecutar el siguiente comando:
 
 ```conda install -c conda-forge gtkwave```
+
 
 ### Instalación de Graphviz en el entorno virtual de MiniConda
 
@@ -48,17 +54,26 @@ Para instalar NetListSVG en el entorno virtual de MiniConda en Linux, se debe ej
 
 ```conda install -c symbiflow netlistsvg```
 
+![NetListSVG install Screen](images/install-netlistsvg.png NetListSVG install command)
+
+
 ### Instalación de Yosys en el entorno virtual de MiniConda
 
 Para instalar Yosys en el entorno virtual de MiniConda en Linux, se debe ejecutar el siguiente comando:
 
 ```conda install -c "litex-hub" yosys```
 
+![Yosys install Screen](images/install-yosys.png Yosys install command)
+
+
 ### Instalación de Icarus Verilog en el entorno virtual de MiniConda
 
 Para instalar Icarus Verilog en el entorno virtual de MiniConda en Linux, se debe ejecutar el siguiente comando:
 
 ```conda install -c "litex-hub" icarus-verilog```
+
+![IVerilog install Screen](images/install-iverilog.png Iverilog install command)
+
 
 ## Instalación de Digital
 
