@@ -117,6 +117,7 @@ En la seccion de instalacion de linux en "tipos de instalación" al momento de g
 
 Luego de generar la cuarta participación de la EFI, se dio inicio al proceso de instalación, pero en el transcurso de instalación se genera el error "grub-install/dev/sda fail". 
 
+![Linux error](images/IMG_20230828_194518.jpg "Error de Digital en Ununtu para Windows").
 
 ## Problema con la instalación de Digital
 
