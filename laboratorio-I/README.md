@@ -18,9 +18,15 @@ Debemos descargar el ISO de Linux Mint Cinnamon desde [Mint](https://www.linuxmi
 
 ![Balena](images/Balena.png "Linux Mint Welcome Screen")
 
-Luego de que finalice la instalación de BalenaEtcher, debemos insertar en el ordenador un pendrive de almenos 8GB. Iniciamos BalenaEtcher para almacenar el instalador de Lunix al pendrive.
+Luego de que finalice la instalación de BalenaEtcher, debemos insertar en el ordenador un pendrive de almenos 8GB. Iniciamos BalenaEtcher para almacenar el instalador de Linux al pendrive.
 
 ![BalenaEtcher](images/pen.png "Linux Mint Welcome Screen")
+
+Al finalizar el almacenamiendo del instalador de Linux, debemos reiniciar el ordenador con el pendrive conectado; antes de que inicie el ordenador se debe oprimir "F1" para ingresar a la BIOS del sistena y poder seleccionar el medio de inicio del ordenador, en este caso, se seleccionará el pendrive y luego se dará Enter en Star Lunix Mint, para inciar Linux de prueba.
+
+
+
+
 
 # Instalación de herramientas
 
