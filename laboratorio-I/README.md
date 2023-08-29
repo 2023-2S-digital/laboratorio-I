@@ -8,6 +8,8 @@ Por sugerencia del profesor Johnny Cubides, se instalará la distribución de Li
 
 ![Linux Mint Welcome](images/install-mint.png "Linux Mint Welcome Screen")
 
+Para proceder con la instalación de Linux Mint, se implemento el proceso a partir de Dual Boot, de esta marena podemos mantener el sistema operativo de Windows e instalar Linux en el mismo ordenador. La Bios en este caso se encargara de de cargar el gestor de arranque y desde el disco duro se llamará al sistema operativo que se desee iniciar. 
+
 # Instalación de herramientas
 
 ## Instalación de Git
