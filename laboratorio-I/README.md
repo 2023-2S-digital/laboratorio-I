@@ -16,7 +16,7 @@ Los primero que se debe realizar es la partición del disco duro; la recomendaci
 
 Debemos descargar el ISO de Linux Mint Cinnamon desde [Mint](https://www.linuxmint.com/) y desde [Balena](https://www.balena.io/) descargamos e instalamos BalenaEtcher.
 
-![Balena](images/Balena.png "Balena")
+![Balena](images/Balena.png "Linux Mint Welcome Screen")
 
 # Instalación de herramientas
 
