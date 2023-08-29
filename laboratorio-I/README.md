@@ -111,7 +111,12 @@ Y descargarlo desde su página oficial: [Digital](https://github.com/hneemann/Di
 A continuación se muestran los problemas que se presentaron durante la instalación de las herramientas y sus respectivas 
 soluciones.
 
-## Problema con la instalacion de Linux mint
+## Problema con la instalacion de Linux Mint
+
+En la seccion de instalacion de linux en "tipos de instalación" al momento de generar las 3 particiones que fueron la del área de intercambio, la partición raíz, la partición Home, y continuar xon la instalación se generaba un error ya que solicitaba una particion para la EFI, por lo que se genero una particion adicional de 512 MB que se recomendaba para la EFI.
+
+Luego de generar la cuarta participación de la EFI, se dio inicio al proceso de instalación, pero en el transcurso de instalación se genera el error "grub-install/dev/sda fail".
+
 
 ## Problema con la instalación de Digital
 
