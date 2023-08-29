@@ -10,8 +10,10 @@ Por sugerencia del profesor Johnny Cubides, se instalará la distribución de Li
 
 Para proceder con la instalación de Linux Mint, se implemento el proceso a partir de Dual Boot, de esta marena podemos mantener el sistema operativo de Windows e instalar Linux en el mismo ordenador. La Bios en este caso se encargara de de cargar el gestor de arranque y desde el disco duro se llamará al sistema operativo que se desee iniciar. 
 
-Los primero que se debe realizar es la partición del disco duro, 
+Los primero que se debe realizar es la partición del disco duro; la recomendación para instalar Linux es destinar una espacio en memoria de 30 a 100 GB. 
 ![Linux Mint Welcome](images/Particion.png "Linux Mint Welcome Screen")
+
+Debemos descargar el ISO de Linux Mint Cinnamon desde [Mint](https://www.linuxmint.com/) y desde [Balena](https://www.balena.io/) descargamos e instalamos BalenaEtcher.
 
 
 # Instalación de herramientas
