@@ -80,7 +80,7 @@ Para instalar Yosys en el entorno virtual de MiniConda en Linux, se debe ejecuta
 
 Para instalar Icarus Verilog en el entorno virtual de MiniConda en Linux, se debe ejecutar el siguiente comando:
 
-```conda install -c "litex-hub" icarus-verilog```
+```conda install -c "litex-hub" iverilog```
 
 ![IVerilog install Screen](images/install-iverilog.png "IVerilog install command")
 
