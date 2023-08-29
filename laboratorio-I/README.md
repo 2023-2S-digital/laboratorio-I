@@ -119,7 +119,7 @@ Luego de generar la cuarta participación de la EFI, se dio inicio al proceso de
 
 ![Linux error](images/IMG_20230828_194518.jpg "Error de Digital en Ununtu para Windows").
 
-Para solucionar esta falla se reinicio el sistema y luego se volvio a iniciar el proceso de instalación, donde en vez de seleccionar "Más opciones" se seleccionó en reinstalar, permitiendo finalizar xon la instalación.
+Para solucionar esta falla se reinicio el sistema y luego se volvio a iniciar el proceso de instalación, donde en vez de seleccionar "Más opciones" se seleccionó en reinstalar, permitiendo finalizar con la instalación.
 
 ## Problema con la instalación de Digital
 
