@@ -22,13 +22,14 @@ Luego de que finalice la instalación de BalenaEtcher, debemos insertar en el or
 
 ![BalenaEtcher](images/pen.png "Linux Mint Welcome Screen")
 
-Al finalizar el almacenamiendo del instalador de Linux, debemos reiniciar el ordenador con el pendrive conectado; antes de que inicie el ordenador se debe oprimir "F1" para ingresar a la BIOS del sistena y poder seleccionar el medio de inicio del ordenador, en este caso, se seleccionará el pendrive y luego se dará Enter en Star Lunix Mint, para inciar Linux de prueba.
+Al finalizar el almacenamiento del instalador de Linux, debemos reiniciar el ordenador con el pendrive conectado; antes de que inicie el ordenador se debe oprimir "F1" para ingresar a la BIOS del sistema y poder seleccionar el medio de inicio del ordenador, en este caso, se seleccionará el pendrive y luego se dará Enter en Star Lunix Mint, para iniciar Linux de prueba.
 
-Cuando inicie el sistema operativo, se procedeá con la instalación, se debe seleccionar el idioma, luego el tipo de teclado, y en Tipo de Instalación de sebe seleccionar "Más opciones" y continuar. En la nueva ventana, se deben administrar el espacio libre que se destinó en memoria cuando se realizó la partición del disco. 
+Cuando inicie el sistema operativo, se procederá con la instalación, se debe seleccionar el idioma, luego el tipo de teclado, y en Tipo de Instalación de sebe seleccionar "Más opciones" y continuar. En la nueva ventana, se deben administrar el espacio libre que se destinó en memoria cuando se realizó la partición del disco. 
 
-Con el espacio libre, se deben realizar 4 particiones, la primera es el área de intercambio, que servira como completmento de la memoria RAM, la segunda es la partición raiz, donde se instalará el sistema operativo y los programas que se necesiten, la tercera particon es la EFI, que actúa como el lugar de almacenamiento para los cargadores de arranque y por último, la partición Home, donde se guardarán los archivos.
+Con el espacio libre, se deben realizar 4 particiones, la primera es el área de intercambio, que servirá como complemento de la memoria RAM, la segunda es la partición raíz, donde se instalará el sistema operativo y los programas que se necesiten, la tercera partición es la EFI, que actúa como el lugar de almacenamiento para los cargadores de arranque y por último, la partición Home, donde se guardarán los archivos.
 
 Luego de generar las particiones se continua con la instalación. Por último se reinicia el ordenador y se desconecta el pendrive, y listo ya queda instalado Linux Mint en el ordenador, conservando el sistema operativo Windows.
+
 
 # Instalación de herramientas
 
