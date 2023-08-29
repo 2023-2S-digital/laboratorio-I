@@ -111,7 +111,7 @@ Y descargarlo desde su página oficial: [Digital](https://github.com/hneemann/Di
 A continuación se muestran los problemas que se presentaron durante la instalación de las herramientas y sus respectivas 
 soluciones.
 
-##Problema con la instalacion de Linux mint
+## Problema con la instalacion de Linux mint
 
 ## Problema con la instalación de Digital
 
