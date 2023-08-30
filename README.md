@@ -1,6 +1,26 @@
-## Laboratorio I
+# Laboratorio I
 
-Instalación del entorno de desarrollo que se usará en clase
+Instalación del entorno de desarrollo que se usará en clase.
+
+A continuación se muestra el proceso de instalación de las herramientas que se usarán en el curso de Electrónica 
+Digital I.
+
+### Contenido
+
+- [Instalación de Linux](#instalación-de-linux)
+- [Instalación de herramientas](#instalación-de-herramientas)
+  - [Instalación de Git](#instalación-de-git)
+  - [Instalación de MiniConda](#instalación-de-miniconda)
+    - [Creación del entorno virtual](#creación-del-entorno-virtual)
+    - [Instalación de GTKWave en el entorno virtual de MiniConda](#instalación-de-gtkwave-en-el-entorno-virtual-de-miniconda)
+    - [Instalación de Graphviz en el entorno virtual de MiniConda](#instalación-de-graphviz-en-el-entorno-virtual-de-miniconda)
+    - [Instalación de NetListSVG en el entorno virtual de MiniConda](#instalación-de-netlistsvg-en-el-entorno-virtual-de-miniconda)
+    - [Instalación de Yosys en el entorno virtual de MiniConda](#instalación-de-yosys-en-el-entorno-virtual-de-miniconda)
+    - [Instalación de Icarus Verilog en el entorno virtual de MiniConda](#instalación-de-icarus-verilog-en-el-entorno-virtual-de-miniconda)
+  - [Instalación de Digital](#instalación-de-digital)
+  - [Problemas y soluciones](#problemas-y-soluciones)
+    - [Problema con la instalacion de Linux Mint](#problema-con-la-instalacion-de-linux-mint)
+    - [Problema con la instalación de Digital](#problema-con-la-instalación-de-digital)
 
 # Instalación de Linux
 
@@ -8,27 +28,41 @@ Por sugerencia del profesor Johnny Cubides, se instalará la distribución de Li
 
 ![Linux Mint Welcome](images/install-mint.png "Linux Mint Welcome Screen")
 
-Para proceder con la instalación de Linux Mint, se implemento el proceso a partir de Dual Boot, de esta marena podemos mantener el sistema operativo de Windows e instalar Linux en el mismo ordenador. La Bios en este caso se encargara de de cargar el gestor de arranque y desde el disco duro se llamará al sistema operativo que se desee iniciar. 
+Para proceder con la instalación de Linux Mint, se implementó el proceso a partir de Dual Boot, de esta marena podemos 
+mantener el sistema operativo de Windows e instalar Linux en el mismo ordenador. La Bios en este caso se encargará de 
+cargar el gestor de arranque y desde el disco duro se llamará al sistema operativo que se desee iniciar. 
 
-Los primero que se debe realizar es la partición del disco duro; la recomendación para instalar Linux es destinar una espacio en memoria de 30 a 100 GB. 
+Lo primero que se debe realizar es la partición del disco duro; la recomendación para instalar Linux es destinar un 
+espacio en memoria de 30 a 100 GB. 
 
 ![Linux Mint Welcome](images/Particion.png "Linux Mint Welcome Screen")
 
-Debemos descargar el ISO de Linux Mint Cinnamon desde [Mint](https://www.linuxmint.com/) y desde [Balena](https://www.balena.io/) descargamos e instalamos BalenaEtcher.
+Debemos descargar el ISO de Linux Mint Cinnamon desde [Mint](https://www.linuxmint.com/) y desde [Balena](https://www.balena.io/) descargamos e instalamos 
+BalenaEtcher.
 
 ![Balena](images/Balena.png "Linux Mint Welcome Screen")
 
-Luego de que finalice la instalación de BalenaEtcher, debemos insertar en el ordenador un pendrive de almenos 8GB. Iniciamos BalenaEtcher para almacenar el instalador de Linux al pendrive.
+Luego de que finalice la instalación de BalenaEtcher, debemos insertar en el ordenador un pendrive de al menos 8 GB. 
+Iniciamos BalenaEtcher para almacenar el instalador de Linux al pendrive.
 
 ![BalenaEtcher](images/pen.png "Linux Mint Welcome Screen")
 
-Al finalizar el almacenamiento del instalador de Linux, debemos reiniciar el ordenador con el pendrive conectado; antes de que inicie el ordenador se debe oprimir "F1" para ingresar a la BIOS del sistema y poder seleccionar el medio de inicio del ordenador, en este caso, se seleccionará el pendrive y luego se dará Enter en Star Lunix Mint, para iniciar Linux de prueba.
+Al finalizar el almacenamiento del instalador de Linux, debemos reiniciar el ordenador con el pendrive conectado; antes 
+de que inicie el ordenador se debe oprimir "F1" para ingresar a la BIOS del sistema y poder seleccionar el medio de 
+inicio del ordenador, en este caso, se seleccionará el pendrive y luego se dará Enter en Star Linux Mint, para iniciar 
+Linux de prueba.
 
-Cuando inicie el sistema operativo, se procederá con la instalación, se debe seleccionar el idioma, luego el tipo de teclado, y en Tipo de Instalación de sebe seleccionar "Más opciones" y continuar. En la nueva ventana, se deben administrar el espacio libre que se destinó en memoria cuando se realizó la partición del disco. 
+Cuando inicie el sistema operativo, se procederá con la instalación, se debe seleccionar el idioma, luego el tipo de 
+teclado, y en Tipo de Instalación de sebe seleccionar "Más opciones" y continuar. En la nueva ventana, se deben 
+administrar el espacio libre que se destinó en memoria cuando se realizó la partición del disco. 
 
-Con el espacio libre, se deben realizar 4 particiones, la primera es el área de intercambio, que servirá como complemento de la memoria RAM, la segunda es la partición raíz, donde se instalará el sistema operativo y los programas que se necesiten, la tercera partición es la EFI, que actúa como el lugar de almacenamiento para los cargadores de arranque y por último, la partición Home, donde se guardarán los archivos.
+Con el espacio libre, se deben realizar 4 particiones, la primera es el área de intercambio, que servirá como 
+complemento de la memoria RAM, la segunda es la partición raíz, donde se instalará el sistema operativo y los programas 
+que se necesiten, la tercera partición es la EFI, que actúa como el lugar de almacenamiento para los cargadores de 
+arranque y por último, la partición Home, donde se guardarán los archivos.
 
-Luego de generar las particiones se continua con la instalación. Por último se reinicia el ordenador y se desconecta el pendrive, y listo ya queda instalado Linux Mint en el ordenador, conservando el sistema operativo Windows.
+Luego de generar las particiones se continúa con la instalación. Por último se reinicia el ordenador y se desconecta el 
+pendrive, y listo ya queda instalado Linux Mint en el ordenador, conservando el sistema operativo Windows.
 
 
 # Instalación de herramientas
@@ -100,7 +134,7 @@ Para instalar Icarus Verilog en el entorno virtual de MiniConda en Linux, se deb
 
 ## Instalación de Digital
 
-Para correr Digital en Linux, se debe instalr primero el JDK, con el siguiente comando:
+Para correr Digital en Linux, se debe instalar primero el JDK, con el siguiente comando:
 
 ```sudo apt install openjdk-11-jdk```
 
@@ -111,15 +145,20 @@ Y descargarlo desde su página oficial: [Digital](https://github.com/hneemann/Di
 A continuación se muestran los problemas que se presentaron durante la instalación de las herramientas y sus respectivas 
 soluciones.
 
-## Problema con la instalacion de Linux Mint
+## Problema con la instalación de Linux Mint
 
-En la seccion de instalacion de linux en "tipos de instalación" al momento de generar las 3 particiones que fueron la del área de intercambio, la partición raíz, la partición Home, y continuar xon la instalación se generaba un error ya que solicitaba una particion para la EFI, por lo que se genero una particion adicional de 512 MB que se recomendaba para la EFI.
+En la sección de instalación de linux en "tipos de instalación" al momento de generar las 3 particiones que fueron la 
+del área de intercambio, la partición raíz, la partición Home, y continuar xon la instalación se generaba un error, ya 
+que solicitaba una partición para la EFI, por lo que se generó una partición adicional de 512 MB que se recomendaba para 
+la EFI.
 
-Luego de generar la cuarta participación de la EFI, se dio inicio al proceso de instalación, pero en el transcurso de instalación se genera el error "grub-install/dev/sda fail". 
+Luego de generar la cuarta participación de la EFI, se dio inicio al proceso de instalación, pero en el transcurso de 
+instalación se genera el error "grub-install/dev/sda fail". 
 
 ![Linux error](images/IMG_20230828_194518.jpg "Error de Digital en Ununtu para Windows").
 
-Para solucionar esta falla se reinicia el sistema y luego se vuelve a iniciar el proceso de instalación, donde, en vez de seleccionar "Más opciones" se selecciona en reinstalar, permitiendo finalizar con la instalación sin errores.
+Para solucionar esta falla se reinicia el sistema y luego se vuelve a iniciar el proceso de instalación, donde, en vez 
+de seleccionar "Más opciones" se selecciona en reinstalar, permitiendo finalizar con la instalación sin errores.
 
 ## Problema con la instalación de Digital
 
