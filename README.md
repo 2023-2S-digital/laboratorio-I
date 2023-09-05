@@ -64,7 +64,6 @@ arranque y por último, la partición Home, donde se guardarán los archivos.
 Luego de generar las particiones se continúa con la instalación. Por último se reinicia el ordenador y se desconecta el 
 pendrive, y listo ya queda instalado Linux Mint en el ordenador, conservando el sistema operativo Windows.
 
-
 # Instalación de herramientas
 
 ## Instalación de Git
@@ -82,18 +81,39 @@ Para instalar MiniConda en Linux, se debe ejecutar el siguiente comando:
 
 ```wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh```
 
+![Miniconda download](images/install-miniconda-download.png "Miniconda download")
+
 y luego
 
 ```bash Miniconda3-latest-Linux-x86_64.sh```
 
 ![MiniConda install Screen](images/install-miniconda.png "MiniConda install command")
 
-
 Luego seguir las instrucciones que se muestran en la terminal.
+
+- Licencia de mini conda
+
+![Miniconda license](images/install-miniconda-license.png "Miniconda license")
 
 ### Creación del entorno virtual
 
 Seguir las instrucciones de la siguiente página: [Instalación de miniconda](https://github.com/johnnycubides/digital-electronic-1-101/tree/main/installTools) del profesor Johnny Cubides
+
+- Actualizar mini conda
+
+![Miniconda update](images/install-miniconda-update.png "Miniconda update")
+
+- Inicializar mini conda
+
+![Miniconda initialize](images/install-miniconda-initialize.png "Miniconda initialize")
+
+- Crear el entorno virtual
+
+![Miniconda virtual environment](images/install-miniconda-environment.png "Miniconda virtual environment create")
+- Activar el entorno virtual
+
+![Miniconda virtual environment](images/install-miniconda-activate.png "Miniconda virtual environment activate")
+
 
 ### Instalación de GTKWave en el entorno virtual de MiniConda
 
@@ -101,12 +121,15 @@ Para instalar GTKWave en el entorno virtual de MiniConda en Linux, se debe ejecu
 
 ```conda install -c conda-forge gtkwave```
 
+![GTKWave](images/install-gtkwave.png "Install GTKWave")
 
 ### Instalación de Graphviz en el entorno virtual de MiniConda
 
 Para instalar Graphviz en el entorno virtual de MiniConda en Linux, se debe ejecutar el siguiente comando:
 
 ```conda install -c conda-forge graphviz```
+
+![Graphviz](images/install-graphviz.png "Install Graphviz")
 
 ### Instalación de NetListSVG en el entorno virtual de MiniConda
 
@@ -139,9 +162,41 @@ Para instalar Icarus Verilog en el entorno virtual de MiniConda en Linux, se deb
 
 Para correr Digital en Linux, se debe instalar primero el JDK, con el siguiente comando:
 
-```sudo apt install openjdk-11-jdk```
+```sudo apt install openjdk-19-jdk```
+
+![JDK install Screen](images/install-jdk.png "JDK install command")
 
 Y descargarlo desde su página oficial: [Digital](https://github.com/hneemann/Digital/releases/latest/download/Digital.zip)
+
+## Instalación de Geany
+
+Para instalar Geany en Linux, se debe ejecutar el siguiente comando:
+
+```sudo apt install geany```
+
+![Geany install Screen](images/install-geany.png "Geany install command")
+
+### Instalar plugins de Geany
+
+Para instalar los plugins de Geany en Linux, se debe ejecutar el siguiente comando:
+
+- Commander
+
+```sudo apt install geany-plugin-commander```
+
+![Commander plugin](images/install-geany-commander.png "Geany commander plugin")
+
+- Git Change Bar
+
+```sudo apt install geany-plugin-git-changebar```
+
+![Change bar plugin](images/install-geany-git-changebar.png "Geany change bar plugin")
+
+- Markdown
+
+```sudo apt install geany-plugin-markdown```
+
+![Markdown plugin](images/install-geany-markdown.png "Geany markdown plugin")
 
 # Problemas y soluciones
 
@@ -188,3 +243,4 @@ herramientas necesarias para el curso.
 - [Documentación de Yosys](https://yosyshq.net/yosys/documentation.html)
 - [Documentación de Icarus Verilog](http://iverilog.icarus.com/)
 - [Documentación de Digital](https://github.com/hneemann/Digital/releases/tag/v0.30)
+- [Documentación de Geany](https://www.geany.org/manual/current/index.html)
