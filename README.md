@@ -18,8 +18,10 @@ Digital I.
     - [Instalación de Yosys en el entorno virtual de MiniConda](#instalación-de-yosys-en-el-entorno-virtual-de-miniconda)
     - [Instalación de Icarus Verilog en el entorno virtual de MiniConda](#instalación-de-icarus-verilog-en-el-entorno-virtual-de-miniconda)
   - [Instalación de Digital](#instalación-de-digital)
+  - [Instalación de Geany](#instalación-de-geany)
+    - [Instalar plugins de Geany](#instalar-plugins-de-geany)
   - [Problemas y soluciones](#problemas-y-soluciones)
-    - [Problema con la instalacion de Linux Mint](#problema-con-la-instalacion-de-linux-mint)
+    - [Problema con la instalacion de Linux Mint](#problema-con-la-instalación-de-linux-mint)
     - [Problema con la instalación de Digital](#problema-con-la-instalación-de-digital)
 
 # Instalación de Linux
