@@ -69,6 +69,9 @@ pendrive, y listo ya queda instalado Linux Mint en el ordenador, conservando el 
 
 ## Instalación de Git
 
+Aunque no está dentro de las herramientas sugeridas por el profesor Johnny Cubides para el curso, se instalará Git para 
+poder, desde la terminal de Linux Mint, trabajar los repositorios de GitHub que se necesiten.
+
 Para instalar Git en Linux, se debe ejecutar el siguiente comando:
 
 ```sudo apt install git-all```
@@ -173,3 +176,15 @@ servidor de ventanas, sin ser posible asegurar que este ajuste funcionase correc
 
 La solución a este problema fue instalar Linux Mint en un laptop viejo que tenía disponible y alli instalar todas las 
 herramientas necesarias para el curso.
+
+# Documentación
+
+- [Documentación de Linux Mint](https://linuxmint.com/documentation.php)
+- [Documentación de Git](https://git-scm.com/doc)
+- [Documentación de MiniConda](https://docs.conda.io/en/latest/)
+- [Documentación de GTKWave](http://gtkwave.sourceforge.net/)
+- [Documentación de Graphviz](https://graphviz.org/documentation/)
+- [Documentación de NetListSVG](https://github.com/nturley/netlistsvg)
+- [Documentación de Yosys](https://yosyshq.net/yosys/documentation.html)
+- [Documentación de Icarus Verilog](http://iverilog.icarus.com/)
+- [Documentación de Digital](https://github.com/hneemann/Digital/releases/tag/v0.30)
