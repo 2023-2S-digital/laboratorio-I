@@ -26,7 +26,7 @@ Digital I.
 
 # Instalación de Linux
 
-Por sugerencia del profesor Johnny Cubides, se instalará la distribución de Linux [Mint](https://www.linuxmint.com/) en su versión Cinnamon.
+Por sugerencia del profesor Johnny German Cubides Castro, se instalará la distribución de Linux [Mint](https://www.linuxmint.com/) en su versión Cinnamon.
 
 ![Linux Mint Welcome](images/install-mint.png "Linux Mint Welcome Screen")
 
@@ -70,7 +70,7 @@ pendrive, y listo ya queda instalado Linux Mint en el ordenador, conservando el 
 
 ## Instalación de Git
 
-Aunque no está dentro de las herramientas sugeridas por el profesor Johnny Cubides para el curso, se instalará Git para 
+Aunque no está dentro de las herramientas sugeridas por el profesor Johnny German Cubides Castro para el curso, se instalará Git para 
 poder, desde la terminal de Linux Mint, trabajar los repositorios de GitHub que se necesiten.
 
 Para instalar Git en Linux, se debe ejecutar el siguiente comando:
