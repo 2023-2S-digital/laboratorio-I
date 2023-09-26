@@ -246,3 +246,7 @@ herramientas necesarias para el curso.
 - [Documentación de Icarus Verilog](http://iverilog.icarus.com/)
 - [Documentación de Digital](https://github.com/hneemann/Digital/releases/tag/v0.30)
 - [Documentación de Geany](https://www.geany.org/manual/current/index.html)
+
+## Licencia
+
+GNU General Public License v3.0. Consulte el [Archivo de licencia](LICENSE) para obtener más información.
