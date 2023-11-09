@@ -10,7 +10,7 @@ Digital I.
 - [Instalación de Linux](#instalación-de-linux)
   - [Instalación de Linux Mint](#instalación-de-linux-mint)
   - [Instalación de WSL 2](#instalación-de-wsl2)
-  - [Instalación de la interfaz gráfica de WSL 2](#instalación-de-la-interfaz-gráfica-de-wsl2)
+    - [Instalación de la interfaz gráfica de WSL 2](#instalación-de-la-interfaz-gráfica-de-wsl2)
 - [Instalación de herramientas](#instalación-de-herramientas)
   - [Instalación de Git](#instalación-de-git)
   - [Instalación de MiniConda](#instalación-de-miniconda)
@@ -92,13 +92,12 @@ WSL2.
 
 # Instalación de herramientas
 
-## Instalación de Git
-
-NOTA: Para instalar las herramientas en WSL2, se debe seguir las mismas instrucciones que para Linux, pero todo 
+NOTA: Para instalar las herramientas en WSL2, se debe seguir las mismas instrucciones que para Linux, pero todo
 ejecutándolo desde la consola de WSL2.
 
 ![Consola WSL 2](images/wsl-2.png "Consola WSL 2")
 
+## Instalación de Git
 
 Aunque no está dentro de las herramientas sugeridas por el profesor Johnny German Cubides Castro para el curso, se 
 instalará Git para poder, desde la terminal de Linux Mint, trabajar los repositorios de GitHub que se necesiten.
