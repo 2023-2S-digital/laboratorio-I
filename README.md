@@ -8,6 +8,9 @@ Digital I.
 ### Contenido
 
 - [Instalación de Linux](#instalación-de-linux)
+  - [Instalación de Linux Mint](#instalación-de-linux-mint)
+  - [Instalación de WSL 2](#instalación-de-wsl2)
+  - [Instalación de la interfaz gráfica de WSL 2](#instalación-de-la-interfaz-gráfica-de-wsl2)
 - [Instalación de herramientas](#instalación-de-herramientas)
   - [Instalación de Git](#instalación-de-git)
   - [Instalación de MiniConda](#instalación-de-miniconda)
@@ -20,13 +23,20 @@ Digital I.
   - [Instalación de Digital](#instalación-de-digital)
   - [Instalación de Geany](#instalación-de-geany)
     - [Instalar plugins de Geany](#instalar-plugins-de-geany)
+  - [Instalación de Quartus](#instalación-de-quartus)
   - [Problemas y soluciones](#problemas-y-soluciones)
-    - [Problema con la instalacion de Linux Mint](#problema-con-la-instalación-de-linux-mint)
+    - [Problema con la instalación de Linux Mint](#problema-con-la-instalación-de-linux-mint)
     - [Problema con la instalación de Digital](#problema-con-la-instalación-de-digital)
 
 # Instalación de Linux
 
-Por sugerencia del profesor Johnny German Cubides Castro, se instalará la distribución de Linux [Mint](https://www.linuxmint.com/) en su versión Cinnamon.
+Se presentaron dos alternativas para la instalación de Linux, la primera fue usar Ubuntu para Windows (WSL2) y la segunda
+fue la instalación independiente de Linux Mint.
+
+## Instalación de Linux Mint
+
+Por sugerencia del profesor Johnny German Cubides Castro, se instalará la distribución de Linux [Mint](https://www.linuxmint.com/) 
+en su versión Cinnamon.
 
 ![Linux Mint Welcome](images/install-mint.png "Linux Mint Welcome Screen")
 
@@ -66,12 +76,32 @@ arranque y por último, la partición Home, donde se guardarán los archivos.
 Luego de generar las particiones se continúa con la instalación. Por último se reinicia el ordenador y se desconecta el 
 pendrive, y listo ya queda instalado Linux Mint en el ordenador, conservando el sistema operativo Windows.
 
+## Instalación de WSL2
+
+Para instalar WSL2 en Windows, se debe seguir las instrucciones de la siguiente página: [Instalación de WSL2](https://learn.microsoft.com/es-es/windows/wsl/install),
+en caso de no tenerlo instalado.
+
+### Instalación de la interfaz gráfica de WSL2
+
+Para instalar la interfaz gráfica de WSL2 en Windows, se debe seguir las instrucciones de la siguiente página:
+[Instalación de la interfaz gráfica de WSL2](https://learn.microsoft.com/es-es/windows/wsl/tutorials/gui-apps#install-x11-apps),
+con esto ya queda habilitado para ejecutar aplicaciones gráficas de Linux en Windows.
+
+Este paso es requerido, ya que Digital y GTKWave son aplicaciones gráficas y no se pueden ejecutar en la terminal de 
+WSL2.
+
 # Instalación de herramientas
 
 ## Instalación de Git
 
-Aunque no está dentro de las herramientas sugeridas por el profesor Johnny German Cubides Castro para el curso, se instalará Git para 
-poder, desde la terminal de Linux Mint, trabajar los repositorios de GitHub que se necesiten.
+NOTA: Para instalar las herramientas en WSL2, se debe seguir las mismas instrucciones que para Linux, pero todo 
+ejecutándolo desde la consola de WSL2.
+
+![Consola WSL 2](images/wsl-2.png "Consola WSL 2")
+
+
+Aunque no está dentro de las herramientas sugeridas por el profesor Johnny German Cubides Castro para el curso, se 
+instalará Git para poder, desde la terminal de Linux Mint, trabajar los repositorios de GitHub que se necesiten.
 
 Para instalar Git en Linux, se debe ejecutar el siguiente comando:
 
@@ -200,6 +230,23 @@ Para instalar los plugins de Geany en Linux, se debe ejecutar el siguiente coman
 
 ![Markdown plugin](images/install-geany-markdown.png "Geany markdown plugin")
 
+## Instalación de Quartus
+
+Para poder hacer uso de la FPGA Cyclone IV, se debe instalar el software de Quartus, para esto se debe descargar desde 
+la página de Intel, pero, como lo explica el profesor en este link, no es necesario descargar todo 
+[Instalación de Quartus (Solo para síntesis en FPGA Cyclone IV)](https://github.com/johnnycubides/digital-electronic-1-101/blob/main/installTools/quartus.md) 
+
+### Uso de los puertos USB de Windows en WSL 2
+
+Para poder acceder a los puertos USB de Windows desde WSL 2 y asi poder cargar la programación a la FPGA, se debe seguir 
+las instrucciones de la siguiente página: [Connect USB devices](https://learn.microsoft.com/en-us/windows/wsl/connect-usb),
+asi se podrá acceder a los puertos USB de Windows desde WSL 2.
+
+![Listado de puertos USB](images/wsl-2-usbipd-list.png)
+
+Debe tener en cuenta que es necesario agregar los dos puertos USB que se muestran en la imagen anterior, ya que uno es 
+para la programación y el otro es para la comunicación serial con la FPGA.
+
 # Problemas y soluciones
 
 A continuación se muestran los problemas que se presentaron durante la instalación de las herramientas y sus respectivas 
@@ -233,6 +280,9 @@ servidor de ventanas, sin ser posible asegurar que este ajuste funcionase correc
 
 La solución a este problema fue instalar Linux Mint en un laptop viejo que tenía disponible y alli instalar todas las 
 herramientas necesarias para el curso.
+
+Más adelante se investigó para poder usar el WSL 2 y se instalaron las dependencias necesarias, como se indica en la 
+parte de [Instalación de la interfaz gráfica de WSL 2](#instalación-de-la-interfaz-gráfica-de-wsl2) 
 
 # Documentación
 
